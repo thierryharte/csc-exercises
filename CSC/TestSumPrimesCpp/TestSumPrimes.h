@@ -3,6 +3,7 @@
 #define CPP_UNIT_EXAMPLETESTCASE_H
 
 #include <cppunit/extensions/HelperMacros.h>
+#include <vector>
 
 /*
  * A test case that to
@@ -14,6 +15,7 @@ class TestSumPrimes : public CPPUNIT_NS::TestFixture
 {
   CPPUNIT_TEST_SUITE( TestSumPrimes );
   CPPUNIT_TEST( testOneIsNotPrime );
+  CPPUNIT_TEST( testThreeAsPrime );
   CPPUNIT_TEST( testTwoIsPrime );
   CPPUNIT_TEST( testThreeIsPrime );
   CPPUNIT_TEST( testFourIsNotPrime );
@@ -26,6 +28,7 @@ protected:
   void testOneIsNotPrime();
   void testTwoIsPrime();
   void testThreeIsPrime();
+  void testThreeAsPrime();
   void testFourIsNotPrime();
   void testTenIsNotPrime();
   void testElevenIsPrime();
