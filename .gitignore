@@ -4,6 +4,7 @@ CSC.tar
 # produced during use
 *.class
 *~
+*.swp
 a.out
 gmon.out
 *.o

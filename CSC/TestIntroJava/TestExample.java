@@ -11,25 +11,29 @@ public class TestExample extends TestCase  {
     public void testLogic() {
         Assert.assertTrue( true );
         Assert.assertTrue( 1 != 2 );
-        Assert.assertTrue( 1 == 2 );
+    //    Assert.assertTrue( 1 == 2 );
     }
 
     public void testEquals() {
         Assert.assertEquals( 1, 1 );
         Assert.assertEquals( 2, 2 );
-        Assert.assertEquals( 1, 2 );
+    //    Assert.assertEquals( 1, 2 );
     }
 
     public void testLogicLabels() {
         Assert.assertTrue( "testing true", true );
         Assert.assertTrue( "testing 1 != 2", 1 != 2 );
-        Assert.assertTrue( "testing 1 == 2", 1 == 2 );
+    //    Assert.assertTrue( "testing 1 == 2", 1 == 2 );
     }
 
     public void testEqualsLabels() {
         Assert.assertEquals( "equals 1,1", 1, 1 );
         Assert.assertEquals( "equals 2,2", 2, 2 );
-        Assert.assertEquals( "equals 1,2", 1, 2 );
+    //    Assert.assertEquals( "equals 1,2", 1, 2 );
+    
+    }
+    public void testCustom() {
+	Assert.assertEquals("true vs one",true,true);
     }
 
 

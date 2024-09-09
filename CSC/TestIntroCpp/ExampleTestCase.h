@@ -18,6 +18,7 @@ class ExampleTestCase : public CPPUNIT_NS::TestFixture
   CPPUNIT_TEST( testSucceeds );
   CPPUNIT_TEST( testAdd );
   CPPUNIT_TEST( testEquals );
+  CPPUNIT_TEST( testCustom );
   CPPUNIT_TEST_SUITE_END();
 
 protected:
@@ -33,6 +34,7 @@ protected:
   void testSucceeds();
   void testAdd();
   void testEquals();
+  void testCustom();
 };
 
 
